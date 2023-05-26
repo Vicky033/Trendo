@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+    color: fuchsia;
+    font-style: oblique;
+    font-size: 60px;
+}
+
+h1:hover{
+    color: fuchsia;
+    font-weight: bold;
+}
+
+.subtitulo{
+    padding-left: 30px;
+}
+
+.header{
+    background-color: rgb(165, 163, 163);
+    font-style: italic;
+    height: 50px;
+}
+
+nav{
+    height: 100%;
+}
+
+
+.navbar-brand:hover{
+    font: size 100px;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+.d-flex{
+    width: 700px;
+    margin: 50px;
+}
+
+.btn{
+    background-color: rgb(247, 105, 211);
+    color: white;
+}
+
+
+
+div .col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 10px;
+    align-items: center;
+    height: 800px;
+    width: 600px;
+}
+
+
+
+
